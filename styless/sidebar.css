@@ -1,0 +1,38 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    color: white;
+    width: 80px;
+    padding-top: 2px;
+   
+  
+
+}.sidebar-link{
+
+    height: 76px;
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    cursor: pointer;
+  
+    
+  
+
+}.sidebar-link:hover{
+    
+background-color: lightgray;
+
+}.sidebar-link img{
+    height: 30px;
+   
+}.sidebar-link div{
+    font-size: 12px;
+    color: black;
+    margin-top: 10px;
+
+
+}

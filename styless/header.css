@@ -1,0 +1,168 @@
+.headers {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-width: 1px;
+    border-bottom-color: rgb(217, 205, 205);
+    border-bottom-style: solid;
+    z-index: 100;
+
+}
+
+
+.Searchbox {
+    flex: 1;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-style: solid;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+}
+
+.searchbox::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.leftheader {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    height: 30px;
+    width: 20px;
+
+}
+
+.searchbutton {
+   
+    padding-left: 10px;
+    font-size: 12px;
+    border-style: solid;
+    margin-left: -4px;
+    margin-right: 15px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
+}
+
+.searchbutton,
+.voice-searchbutton,.upload-icon-container,.notifications {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ 
+}
+
+.searchbutton .tooldisplay,
+.voice-searchbutton .tooldisplay, .upload-icon-container .tooldisplay,.notifications .tooldisplay
+{
+    position: absolute;
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    padding: 4px 8px 4px 8px;
+    border-radius: 4px;
+    bottom: -28px;
+    left: -10px;
+    opacity: 0;
+    transition: .15s;
+    pointer-events: none;
+    white-space: nowrap;
+    font-family: Arial;
+    font-size: medium;
+
+}
+
+.searchbutton:hover .tooldisplay,
+.voice-searchbutton:hover .tooldisplay, .upload-icon-container:hover .tooldisplay,.notifications:hover .tooldisplay {
+    opacity: 1;
+}
+
+.voice-search-icon {
+    height: 30px;
+
+
+}
+
+.voice-searchbutton {
+
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(248, 248, 248);
+
+}
+
+.middleheader {
+
+    margin-left: 70px;
+    margin-right: 40px;
+    flex: 1;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 50px;
+    max-width: 700px;
+
+    display: flex;
+    align-items: center;
+}
+
+.rightheader {
+
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 26px;
+    flex-shrink: 0;
+}
+
+.hamburger-menu {
+    height: 20px;
+    margin: 15px;
+
+
+}
+
+.upload-icon {
+    height: 24px;
+}
+
+
+.notifications {
+    height: 30px;
+}
+
+.mychannel {
+    height: 30px;
+    border-radius: 15px;
+}
+
+.youtube-logo {
+    height: 33px;
+}
+
+.notificationscount {
+    position: absolute;
+    top: 2px;
+    right: 0;
+
+    background-color: red;
+    color: white;
+    font-size: 11px;
+    padding-left: 4px;
+    border-radius: 10px;
+    padding-top: 1px;
+}
